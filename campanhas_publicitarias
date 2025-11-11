@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Annabella</title>
+    <link rel="stylesheet" type="text/css" href="style.css">   
+</head>
+<body>
+    <header>   
+        <nav style="width: 100%;">
+            <div style="width: 100%; max-width: 100vw;">
+                <img src="imagens/capa.png" alt="Logo" style="width: 100%; height: auto; display: block; max-width: 100vw;">
+            </div>
+            <div style="display: flex; justify-content: center; align-items: center; width: 100%; margin-top: 20px;">
+                <ul id="menu" style="display: flex; list-style: none; padding: 0; margin: 0; align-items: center;">
+                    <li class="nav-item" style="margin-right: 16px;">
+                        <a class="nav-link me-4" href="index.html" style="font-size: 1.3em; padding: 12px 28px; display: inline-block;">HOME</a>
+                    </li>
+                    <li style="align-self: stretch; display: flex; align-items: center;">
+                        <span style="border-left: 1px solid #ccc; height: 60%; display: inline-block;"></span>
+                    </li>
+                    <li class="nav-item" style="margin: 0 16px;">
+                        <a class="nav-link me-4" href="biografia.html" style="font-size: 1.3em; padding: 12px 28px; display: inline-block;">BIOGRAFIA</a>
+                    </li>
+                    <li style="align-self: stretch; display: flex; align-items: center;">
+                        <span style="border-left: 1px solid #ccc; height: 60%; display: inline-block;"></span>
+                    </li>
+                    <li class="nav-item" style="margin: 0 16px;">
+                        <a class="nav-link me-4" href="campanhas_publicitarias.html" style="font-size: 1.3em; padding: 12px 28px; display: inline-block;">CAMPANHAS PUBLICITÁRIAS</a>
+                    </li>
+                    <li style="align-self: stretch; display: flex; align-items: center;">
+                        <span style="border-left: 1px solid #ccc; height: 60%; display: inline-block;"></span>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-4" href="contato.html" style="font-size: 1.3em; padding: 12px 28px; display: inline-block;">CONTATO</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <h1 style="text-align: center;">Campanhas Publicitárias</h1>
+    <p>Annabella participou de diversas campanhas publicitárias de grande destaque ao longo de sua carreira, tornando-se rosto de marcas nacionais e internacionais. Sua presença marcante e versatilidade permitiram que ela representasse desde grifes de moda até produtos de beleza e lifestyle, sempre transmitindo autenticidade e elegância.</p>
+    <p>Entre as campanhas mais notáveis, Annabella foi protagonista de coleções sazonais para importantes marcas de vestuário, figurando em anúncios impressos, outdoors e comerciais de televisão. Sua imagem esteve presente em lançamentos de perfumes, acessórios e linhas de maquiagem, contribuindo para o sucesso de vendas e fortalecimento das marcas.</p>
+    <p>Além do universo da moda, Annabella também estrelou campanhas voltadas para causas sociais e projetos de responsabilidade corporativa, utilizando sua influência para promover mensagens de inclusão, diversidade e sustentabilidade. Seu engajamento nessas iniciativas reforçou seu compromisso com valores que vão além da estética.</p>
+    <p>O profissionalismo e carisma de Annabella fizeram dela uma escolha frequente para campanhas de longa duração, estabelecendo parcerias sólidas com empresas renomadas. Sua trajetória no mercado publicitário é marcada por inovação, credibilidade e inspiração para novas gerações de modelos e comunicadores.</p>
+   
+<div style="display: flex; flex-direction: column; align-items: center; gap: 24px; margin: 40px 0;">
+    <figure style="margin: 0;">
+        <img src="imagens/foto1.png" alt="Campanha 1" style="max-width: 100%; height: auto; display: block;">
+        <figcaption style="text-align: center; margin-top: 8px;">Campanha para marca de moda internacional, na praia (2022)</figcaption>
+    </figure>
+    <figure style="margin: 0;">
+        <img src="imagens/foto2.png" alt="Campanha 2" style="max-width: 100%; height: auto; display: block;">
+        <figcaption style="text-align: center; margin-top: 8px;">Anúncio de maquiagem estrelado por Annabella</figcaption>
+    </figure>
+    <figure style="margin: 0;">
+        <img src="imagens/foto3.png" alt="Campanha 3" style="max-width: 100%; height: auto; display: block;">
+        <figcaption style="text-align: center; margin-top: 8px;">Ensaio fotográfico, apreciando a beleza feminina</figcaption>
+    </figure>
+</div>
+
+<footer>
+    <p style="text-align: center;">&copy; Todos os direitos reservados.</p>
+</footer>
+</body>
+</html>
